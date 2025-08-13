@@ -1,0 +1,162 @@
+{
+  "name" : "mt_error_test_simple",
+  "description" : "実行モード変更中",
+  "runtimeEnvironmentId" : "@99ivIxjKdMqfsGYxwwi8M5",
+  "runtimeEnvironmentName" : "SMM_DP_SAG_dev",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$ソース$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "ソース",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "originalPath" : "ソース"
+      },
+      "sourceConnectionId" : "@9BD2ByB8g6ehYPxU0hIPS0",
+      "connectionName" : "con_SDP_dev_batch",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+          "label" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+          "metadataUpdated" : false
+        },
+        "singleMode" : true,
+        "filters" : [
+          {
+            "objectName" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "field" : "EDINETコード",
+            "type" : "STRING",
+            "operator" : "equals",
+            "value" : "E00167"
+          },
+          {
+            "objectName" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "field" : "項目名",
+            "type" : "STRING",
+            "operator" : "equals",
+            "value" : "従業員数"
+          }
+        ],
+        "objects" : [
+          {
+            "name" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "label" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$ターゲット$",
+      "type" : "TARGET",
+      "label" : "ターゲット",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "supportApplyDDLChanges" : "false",
+        "originalPath" : "ターゲット"
+      },
+      "targetConnectionId" : "@9BD2ByB8g6ehYPxU0hIPS0",
+      "connectionName" : "con_SDP_dev_batch",
+      "targetObject" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+      "targetObjectLabel" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+      "objectLabel" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "tgtObjectAttributes" : {
+        "tableFormat" : "Standard Table"
+      },
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "targetSchemaProviderType" : "SELECTED_OBJECT",
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    }
+  ],
+  "verbose" : true,
+  "mappingId" : "@i3MuM2o2VEwgJjVQja4D8G",
+  "mappingTemplateName" : "mpg_error_test_simple",
+  "sessionPropertiesList" : [
+    {
+      "name" : "Pushdown Optimization",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Context",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Fallback Option",
+      "value" : "Partial PDO"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "optimizationPlan" : "NONE",
+  "allowMaxFieldLength" : false,
+  "specialCharacterSupport" : true,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2025-08-13 11:00:50 JST"
+}

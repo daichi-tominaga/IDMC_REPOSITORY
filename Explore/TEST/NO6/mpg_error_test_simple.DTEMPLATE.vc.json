@@ -1,0 +1,1071 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "mpg_error_test_simple",
+    "specialCharacterSupport" : "true",
+    "links" : [
+      {
+        "link" : "ソース -> ターゲット"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-08-04T05:45:50.127Z",
+        "name" : "ソース",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Verbose Data"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "EDINETコード"
+            },
+            "name" : "EDINETコード",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "決算日"
+            },
+            "name" : "決算日",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "提出日"
+            },
+            "name" : "提出日",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "要素ID"
+            },
+            "name" : "要素ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "項目名"
+            },
+            "name" : "項目名",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "コンテキストID"
+            },
+            "name" : "コンテキストID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "相対年度"
+            },
+            "name" : "相対年度",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "連結・個別"
+            },
+            "name" : "連結・個別",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "期間・時点"
+            },
+            "name" : "期間・時点",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ユニットID"
+            },
+            "name" : "ユニットID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "単位"
+            },
+            "name" : "単位",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 600,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "値"
+            },
+            "name" : "値",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@9BD2ByB8g6ehYPxU0hIPS0",
+          "connectionName" : "con_SDP_dev_batch",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "label" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "objectName" : "有価証券報告書",
+            "objectType" : "table",
+            "path" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "EDINETコード",
+                "fieldType" : "CONNECTOR",
+                "label" : "EDINETコード",
+                "nativeName" : "EDINETコード",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "決算日",
+                "fieldType" : "CONNECTOR",
+                "label" : "決算日",
+                "nativeName" : "決算日",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "提出日",
+                "fieldType" : "CONNECTOR",
+                "label" : "提出日",
+                "nativeName" : "提出日",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "要素ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "要素ID",
+                "nativeName" : "要素ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "項目名",
+                "fieldType" : "CONNECTOR",
+                "label" : "項目名",
+                "nativeName" : "項目名",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "コンテキストID",
+                "fieldType" : "CONNECTOR",
+                "label" : "コンテキストID",
+                "nativeName" : "コンテキストID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "相対年度",
+                "fieldType" : "CONNECTOR",
+                "label" : "相対年度",
+                "nativeName" : "相対年度",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "連結・個別",
+                "fieldType" : "CONNECTOR",
+                "label" : "連結・個別",
+                "nativeName" : "連結・個別",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "期間・時点",
+                "fieldType" : "CONNECTOR",
+                "label" : "期間・時点",
+                "nativeName" : "期間・時点",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "ユニットID",
+                "fieldType" : "CONNECTOR",
+                "label" : "ユニットID",
+                "nativeName" : "ユニットID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "単位",
+                "fieldType" : "CONNECTOR",
+                "label" : "単位",
+                "nativeName" : "単位",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 600,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "値",
+                "fieldType" : "CONNECTOR",
+                "label" : "値",
+                "nativeName" : "値",
+                "nativeType" : "double",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "有価証券報告書"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "tableType",
+                "value" : "TABLE"
+              },
+              {
+                "name" : "storageSerPol",
+                "value" : "Optimized"
+              },
+              {
+                "name" : "tableFormat",
+                "value" : "Standard Table"
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false",
+            "filterConditions" : [
+              {
+                "fieldName" : "EDINETコード",
+                "filterValue" : "E00167",
+                "objectName" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+                "operator" : "EQUALS"
+              },
+              {
+                "fieldName" : "項目名",
+                "filterValue" : "従業員数",
+                "objectName" : "DB_COODE/04_有価証券報告書/有価証券報告書",
+                "operator" : "EQUALS"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-04T05:45:50.129Z",
+        "name" : "ターゲット",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true",
+                "bulkRenameOption" : {
+                  "pattern" : "・/",
+                  "suffix" : "false"
+                }
+              },
+              {
+                "bulkRename" : "false",
+                "include" : "false",
+                "names" : [
+                  {
+                    "inputName" : "提出日"
+                  },
+                  {
+                    "inputName" : "決算日"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "MANUAL",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "EDINETコード"
+            },
+            "name" : "EDINETコード",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "決算日"
+            },
+            "name" : "決算日",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "提出日"
+            },
+            "name" : "提出日",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "要素ID"
+            },
+            "name" : "要素ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "項目名"
+            },
+            "name" : "項目名",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "コンテキストID"
+            },
+            "name" : "コンテキストID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "相対年度"
+            },
+            "name" : "相対年度",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "連結・個別"
+            },
+            "name" : "連結・個別",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "期間・時点"
+            },
+            "name" : "期間・時点",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ユニットID"
+            },
+            "name" : "ユニットID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "単位"
+            },
+            "name" : "単位",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "値"
+            },
+            "name" : "値",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@9BD2ByB8g6ehYPxU0hIPS0",
+          "connectionName" : "con_SDP_dev_batch",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+            "label" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+            "objectName" : "COODE_有価証券報告書",
+            "objectType" : "table",
+            "path" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "EDINETコード",
+                "fieldType" : "CONNECTOR",
+                "label" : "EDINETコード",
+                "nativeName" : "EDINETコード",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "決算日",
+                "fieldType" : "CONNECTOR",
+                "label" : "決算日",
+                "nativeName" : "決算日",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "提出日",
+                "fieldType" : "CONNECTOR",
+                "label" : "提出日",
+                "nativeName" : "提出日",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "要素ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "要素ID",
+                "nativeName" : "要素ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "項目名",
+                "fieldType" : "CONNECTOR",
+                "label" : "項目名",
+                "nativeName" : "項目名",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "コンテキストID",
+                "fieldType" : "CONNECTOR",
+                "label" : "コンテキストID",
+                "nativeName" : "コンテキストID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "相対年度",
+                "fieldType" : "CONNECTOR",
+                "label" : "相対年度",
+                "nativeName" : "相対年度",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "ユニットID",
+                "fieldType" : "CONNECTOR",
+                "label" : "ユニットID",
+                "nativeName" : "ユニットID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "単位",
+                "fieldType" : "CONNECTOR",
+                "label" : "単位",
+                "nativeName" : "単位",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "値",
+                "fieldType" : "CONNECTOR",
+                "label" : "値",
+                "nativeName" : "値",
+                "nativeType" : "double",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "連結・個別",
+                "fieldType" : "CONNECTOR",
+                "label" : "連結・個別",
+                "nativeName" : "連結・個別",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              },
+              {
+                "name" : "期間・時点",
+                "fieldType" : "CONNECTOR",
+                "label" : "期間・時点",
+                "nativeName" : "期間・時点",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "COODE_有価証券報告書"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "tableType",
+                "value" : "TABLE"
+              },
+              {
+                "name" : "storageSerPol",
+                "value" : "Optimized"
+              },
+              {
+                "name" : "tableFormat",
+                "value" : "Standard Table"
+              }
+            ]
+          },
+          "runtimeAttributes" : {
+            "attributes" : [
+              {
+                "name" : "UpdateMode",
+                "value" : "Update As Update"
+              },
+              {
+                "name" : "Truncate Target Table",
+                "value" : "NO"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "tableFormat",
+                "value" : "Standard Table"
+              }
+            ]
+          }
+        },
+        "manualMappings" : {
+          "mappingList" : [
+            {
+              "fromFieldName" : "EDINETコード",
+              "toField" : {
+                "name" : "EDINETコード"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "要素ID",
+              "toField" : {
+                "name" : "要素ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "項目名",
+              "toField" : {
+                "name" : "項目名"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "コンテキストID",
+              "toField" : {
+                "name" : "コンテキストID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "相対年度",
+              "toField" : {
+                "name" : "相対年度"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "ユニットID",
+              "toField" : {
+                "name" : "ユニットID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "単位",
+              "toField" : {
+                "name" : "単位"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "値",
+              "toField" : {
+                "name" : "値"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "連結・個別",
+              "toField" : {
+                "name" : "連結・個別"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "期間・時点",
+              "toField" : {
+                "name" : "期間・時点"
+              },
+              "fromFieldNames" : null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2025-08-13 11:00:49 JST"
+}
