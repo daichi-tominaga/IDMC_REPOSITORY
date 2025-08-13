@@ -68,7 +68,6 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -115,7 +114,6 @@
       "objectLabel" : "DB_DIRTY/SCH_T0_L0_ダーティレイク_COODE/COODE_有価証券報告書",
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "tgtObjectAttributes" : {
         "tableFormat" : "Standard Table"
       },
@@ -123,7 +121,6 @@
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
       },
-      "targetSchemaProviderType" : "SELECTED_OBJECT",
       "restmodernSource" : true,
       "unspecified" : false,
       "fileList" : false
@@ -158,5 +155,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : true,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-08-13 11:00:50 JST"
+  "vcsExportTime" : "2025-08-13 11:09:14 JST"
 }

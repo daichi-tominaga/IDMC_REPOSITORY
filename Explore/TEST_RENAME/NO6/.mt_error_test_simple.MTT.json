@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-08-13T02:00:50.530Z",
+  "updateTime" : "2025-08-13T02:09:14.879Z",
   "objectRefs" : [ {
     "id" : "9BD2ByB8g6ehYPxU0hIPS0",
     "name" : "con_SDP_dev_batch",
@@ -86,7 +86,7 @@
         "documentState" : "VALID"
       }
     },
-    "path" : "/Explore/TEST/NO6"
+    "path" : "/Explore/TEST_RENAME/NO6"
   } ],
   "readableFileExtension" : "json",
   "readableFilePresent" : true
