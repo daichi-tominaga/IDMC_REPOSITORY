@@ -1,0 +1,883 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_IF_S0004_T0004_0001_insert_testdata_deletion",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "式 -> ターゲット"
+      },
+      {
+        "link" : "ソース -> 式"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-10-29T10:24:28.657Z",
+        "name" : "ソース",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "DELETE_TABLE_NM"
+            },
+            "name" : "DELETE_TABLE_NM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "STORAGE_JUDGE_COLUMN"
+            },
+            "name" : "STORAGE_JUDGE_COLUMN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "STORAGE_DAYS"
+            },
+            "name" : "STORAGE_DAYS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "OPTIONAL_DELETE_CONDITION"
+            },
+            "name" : "OPTIONAL_DELETE_CONDITION",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_SEQ"
+            },
+            "name" : "DELETE_SEQ",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@7iOcomJSecxlv2qZ6FkPAW",
+          "connectionName" : "con_flatfile-datahub",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv",
+            "label" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv",
+            "objectName" : "IF_S0004_T0004_0001_17.csv",
+            "path" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "DELETE_TABLE_NM",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_TABLE_NM",
+                "nativeName" : "DELETE_TABLE_NM",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "STORAGE_JUDGE_COLUMN",
+                "fieldType" : "CONNECTOR",
+                "label" : "STORAGE_JUDGE_COLUMN",
+                "nativeName" : "STORAGE_JUDGE_COLUMN",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "STORAGE_DAYS",
+                "fieldType" : "CONNECTOR",
+                "label" : "STORAGE_DAYS",
+                "nativeName" : "STORAGE_DAYS",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "OPTIONAL_DELETE_CONDITION",
+                "fieldType" : "CONNECTOR",
+                "label" : "OPTIONAL_DELETE_CONDITION",
+                "nativeName" : "OPTIONAL_DELETE_CONDITION",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_SEQ",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_SEQ",
+                "nativeName" : "DELETE_SEQ",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_17.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-10-29T10:24:28.657Z",
+        "name" : "ターゲット",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "DELETE_TABLE_NM"
+            },
+            "name" : "DELETE_TABLE_NM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 128,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "STORAGE_JUDGE_COLUMN"
+            },
+            "name" : "STORAGE_JUDGE_COLUMN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 128,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "STORAGE_DAYS"
+            },
+            "name" : "STORAGE_DAYS",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 4,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "OPTIONAL_DELETE_CONDITION"
+            },
+            "name" : "OPTIONAL_DELETE_CONDITION",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 512,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_SEQ"
+            },
+            "name" : "DELETE_SEQ",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@1htugg26xO3lHUT481DdSe",
+          "connectionName" : "con_Oracle-DATAHUB-DATAHUB",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT",
+            "dbSchema" : "DATAHUB_1",
+            "label" : "CM_M_DELETE_MANAGEMENT",
+            "objectName" : "CM_M_DELETE_MANAGEMENT",
+            "path" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "DELETE_TABLE_NM",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_TABLE_NM",
+                "nativeName" : "DELETE_TABLE_NM",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 128,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "STORAGE_JUDGE_COLUMN",
+                "fieldType" : "CONNECTOR",
+                "label" : "STORAGE_JUDGE_COLUMN",
+                "nativeName" : "STORAGE_JUDGE_COLUMN",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 128,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "STORAGE_DAYS",
+                "fieldType" : "CONNECTOR",
+                "label" : "STORAGE_DAYS",
+                "nativeName" : "STORAGE_DAYS",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 4,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "OPTIONAL_DELETE_CONDITION",
+                "fieldType" : "CONNECTOR",
+                "label" : "OPTIONAL_DELETE_CONDITION",
+                "nativeName" : "OPTIONAL_DELETE_CONDITION",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 512,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_SEQ",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_SEQ",
+                "nativeName" : "DELETE_SEQ",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/CM_M_DELETE_MANAGEMENT"
+                  }
+                ]
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "true",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-10-29T10:26:04.135Z",
+        "name" : "式",
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "true",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true",
+                "names" : [
+                  {
+                    "inputName" : "UPDATE_USER_ID"
+                  },
+                  {
+                    "inputName" : "UPDATE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "UPDATE_DT",
+                    "outputName" : "S_UPDATE_DT"
+                  },
+                  {
+                    "inputName" : "STORAGE_JUDGE_COLUMN"
+                  },
+                  {
+                    "inputName" : "STORAGE_DAYS"
+                  },
+                  {
+                    "inputName" : "OPTIONAL_DELETE_CONDITION"
+                  },
+                  {
+                    "inputName" : "DELETE_TABLE_NM"
+                  },
+                  {
+                    "inputName" : "DELETE_SEQ"
+                  },
+                  {
+                    "inputName" : "DELETE_FLG"
+                  },
+                  {
+                    "inputName" : "CREATIVE_USER_ID"
+                  },
+                  {
+                    "inputName" : "CREATIVE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "CREATIVE_DT",
+                    "outputName" : "S_CREATIVE_DT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "windowConfigurationEnabled" : "false",
+        "fields" : [
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_CREATIVE_DT, 'YYYY-MM-DD')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_UPDATE_DT, 'YYYY-MM-DD')"
+          }
+        ],
+        "windowSpec" : {
+          "allRowsFollowing" : "false",
+          "allRowsPreceding" : "false",
+          "endOffset" : 0,
+          "startOffset" : 0,
+          "partitionKeys" : null
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-01-08 09:39:11 JST"
+}
