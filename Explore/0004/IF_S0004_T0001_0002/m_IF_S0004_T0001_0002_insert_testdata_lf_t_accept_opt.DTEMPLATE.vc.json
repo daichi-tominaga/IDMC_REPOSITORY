@@ -1,0 +1,1106 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_IF_S0004_T0001_0002_insert_testdata_lf_t_accept_opt",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "exp -> target"
+      },
+      {
+        "link" : "source -> exp"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-08-04T04:47:26.154Z",
+        "name" : "source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "File Reader Truncate String Null",
+            "value" : "NO"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "CACCEPT_NO"
+            },
+            "name" : "CACCEPT_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COPT_CD"
+            },
+            "name" : "COPT_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@7iOcomJSecxlv2qZ6FkPAW",
+          "connectionName" : "con_flatfile-datahub",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv",
+            "label" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv",
+            "objectName" : "IF_S0004_T0001_0002_09.csv",
+            "path" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "CACCEPT_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "CACCEPT_NO",
+                "nativeName" : "CACCEPT_NO",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "COPT_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "COPT_CD",
+                "nativeName" : "COPT_CD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_09.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-04T04:47:26.155Z",
+        "name" : "target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true",
+                "names" : [
+                  {
+                    "inputName" : "CACCEPT_NO"
+                  },
+                  {
+                    "inputName" : "COPT_CD"
+                  },
+                  {
+                    "inputName" : "CREATIVE_DT"
+                  },
+                  {
+                    "inputName" : "CREATIVE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "CREATIVE_USER_ID"
+                  },
+                  {
+                    "inputName" : "DELETE_FLG"
+                  },
+                  {
+                    "inputName" : "UPDATE_DT"
+                  },
+                  {
+                    "inputName" : "UPDATE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "UPDATE_USER_ID"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "CACCEPT_NO"
+            },
+            "name" : "CACCEPT_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 12,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COPT_CD"
+            },
+            "name" : "COPT_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 8,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "OPT_DIV"
+            },
+            "name" : "OPT_DIV",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COPT_PADDING_CS"
+            },
+            "name" : "COPT_PADDING_CS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COPT_REQUIRED"
+            },
+            "name" : "COPT_REQUIRED",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CATT_OPT_CS"
+            },
+            "name" : "CATT_OPT_CS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CSIZE_OPT_CS"
+            },
+            "name" : "CSIZE_OPT_CS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DREFIX_DATE"
+            },
+            "name" : "DREFIX_DATE",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "BUNRUICD_A"
+            },
+            "name" : "BUNRUICD_A",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 3,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COPT_TSDR_TSSS_CS"
+            },
+            "name" : "COPT_TSDR_TSSS_CS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCDYNA_KEY"
+            },
+            "name" : "VCDYNA_KEY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "NOPT_ARRANGEMENTS"
+            },
+            "name" : "NOPT_ARRANGEMENTS",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 4,
+            "scale" : 1
+          },
+          {
+            "adapterField" : {
+              "name" : "NOPT_ASSEMBLY"
+            },
+            "name" : "NOPT_ASSEMBLY",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 4,
+            "scale" : 1
+          },
+          {
+            "adapterField" : {
+              "name" : "NOPT_LT"
+            },
+            "name" : "NOPT_LT",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 4,
+            "scale" : 1
+          },
+          {
+            "adapterField" : {
+              "name" : "COPT_MARK"
+            },
+            "name" : "COPT_MARK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@1htugg26xO3lHUT481DdSe",
+          "connectionName" : "con_Oracle-DATAHUB-DATAHUB",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "DATAHUB_1/LF_T_ACCEPT_OPT",
+            "dbSchema" : "DATAHUB_1",
+            "label" : "LF_T_ACCEPT_OPT",
+            "objectName" : "LF_T_ACCEPT_OPT",
+            "path" : "DATAHUB_1/LF_T_ACCEPT_OPT",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "CACCEPT_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "CACCEPT_NO",
+                "nativeName" : "CACCEPT_NO",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 12,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "COPT_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "COPT_CD",
+                "nativeName" : "COPT_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 8,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "OPT_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "OPT_DIV",
+                "nativeName" : "OPT_DIV",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "COPT_PADDING_CS",
+                "fieldType" : "CONNECTOR",
+                "label" : "COPT_PADDING_CS",
+                "nativeName" : "COPT_PADDING_CS",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "COPT_REQUIRED",
+                "fieldType" : "CONNECTOR",
+                "label" : "COPT_REQUIRED",
+                "nativeName" : "COPT_REQUIRED",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "CATT_OPT_CS",
+                "fieldType" : "CONNECTOR",
+                "label" : "CATT_OPT_CS",
+                "nativeName" : "CATT_OPT_CS",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "CSIZE_OPT_CS",
+                "fieldType" : "CONNECTOR",
+                "label" : "CSIZE_OPT_CS",
+                "nativeName" : "CSIZE_OPT_CS",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "DREFIX_DATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "DREFIX_DATE",
+                "nativeName" : "DREFIX_DATE",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "BUNRUICD_A",
+                "fieldType" : "CONNECTOR",
+                "label" : "BUNRUICD_A",
+                "nativeName" : "BUNRUICD_A",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 3,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "COPT_TSDR_TSSS_CS",
+                "fieldType" : "CONNECTOR",
+                "label" : "COPT_TSDR_TSSS_CS",
+                "nativeName" : "COPT_TSDR_TSSS_CS",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "VCDYNA_KEY",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCDYNA_KEY",
+                "nativeName" : "VCDYNA_KEY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "NOPT_ARRANGEMENTS",
+                "fieldType" : "CONNECTOR",
+                "label" : "NOPT_ARRANGEMENTS",
+                "nativeName" : "NOPT_ARRANGEMENTS",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 4,
+                "scale" : 1,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "NOPT_ASSEMBLY",
+                "fieldType" : "CONNECTOR",
+                "label" : "NOPT_ASSEMBLY",
+                "nativeName" : "NOPT_ASSEMBLY",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 4,
+                "scale" : 1,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "NOPT_LT",
+                "fieldType" : "CONNECTOR",
+                "label" : "NOPT_LT",
+                "nativeName" : "NOPT_LT",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 4,
+                "scale" : 1,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "COPT_MARK",
+                "fieldType" : "CONNECTOR",
+                "label" : "COPT_MARK",
+                "nativeName" : "COPT_MARK",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_T_ACCEPT_OPT"
+                  }
+                ]
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "true",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-22T02:00:31.731Z",
+        "name" : "exp",
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "true",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true",
+                "names" : [
+                  {
+                    "inputName" : "CACCEPT_NO"
+                  },
+                  {
+                    "inputName" : "COPT_CD"
+                  },
+                  {
+                    "inputName" : "CREATIVE_DT",
+                    "outputName" : "S_CREATIVE_DT"
+                  },
+                  {
+                    "inputName" : "CREATIVE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "CREATIVE_USER_ID"
+                  },
+                  {
+                    "inputName" : "DELETE_FLG"
+                  },
+                  {
+                    "inputName" : "UPDATE_DT",
+                    "outputName" : "S_UPDATE_DT"
+                  },
+                  {
+                    "inputName" : "UPDATE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "UPDATE_USER_ID"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "windowConfigurationEnabled" : "false",
+        "fields" : [
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_UPDATE_DT, 'YYYY-MM-DD HH24:MI:SS')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_CREATIVE_DT, 'YYYY-MM-DD HH24:MI:SS')"
+          }
+        ],
+        "windowSpec" : {
+          "allRowsFollowing" : "false",
+          "allRowsPreceding" : "false",
+          "endOffset" : 0,
+          "startOffset" : 0,
+          "partitionKeys" : null
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-01-08 09:39:50 JST"
+}

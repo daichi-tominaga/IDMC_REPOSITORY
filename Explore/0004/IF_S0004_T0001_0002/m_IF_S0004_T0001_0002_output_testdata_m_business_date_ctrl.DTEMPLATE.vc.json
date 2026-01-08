@@ -1,0 +1,229 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_IF_S0004_T0001_0002_output_testdata_m_business_date_ctrl",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "source -> target"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-08-04T03:02:38.615Z",
+        "name" : "source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "BASE_CD"
+            },
+            "name" : "BASE_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BATCH_YMD"
+            },
+            "name" : "BATCH_YMD",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@8l9OZ68XNcqe0r8Mbv2ycb",
+          "connectionName" : "con_oracle-tehai",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL",
+            "dbSchema" : "PROCUREMENT_DH",
+            "label" : "M_BUSINESS_DATE_CTRL",
+            "objectName" : "M_BUSINESS_DATE_CTRL",
+            "path" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "BASE_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BASE_CD",
+                "nativeName" : "BASE_CD",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "BATCH_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BATCH_YMD",
+                "nativeName" : "BATCH_YMD",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-04T03:02:38.618Z",
+        "name" : "target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "Append if Exists",
+            "value" : "NO"
+          },
+          {
+            "name" : "Create Target Directory",
+            "value" : "NO"
+          },
+          {
+            "name" : "Header Options",
+            "value" : "Output Field Names"
+          },
+          {
+            "name" : "Output Type",
+            "value" : "File"
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "dataAdapter" : {
+          "connectionId" : "saas:@7iOcomJSecxlv2qZ6FkPAW",
+          "connectionName" : "con_flatfile-datahub",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "bulkOptions" : {
+            "hardDelete" : "false",
+            "maxRowsPerRequest" : 0,
+            "monitorBulk" : "false",
+            "monitorBulkV2" : "false",
+            "pkChunkingEnabled" : "false",
+            "pkChunkingSize" : 0,
+            "serialMode" : "false",
+            "useBulkApi" : "false",
+            "useBulkApiV2" : "false"
+          },
+          "object" : {
+            "name" : "IF_S0004_T0001_0002/M_BUSINESS_DATE_CTRL_%Y%m%d%H%M%S.csv",
+            "label" : "IF_S0004_T0001_0002/M_BUSINESS_DATE_CTRL_%Y%m%d%H%M%S.csv",
+            "path" : "IF_S0004_T0001_0002/M_BUSINESS_DATE_CTRL_%Y%m%d%H%M%S.csv",
+            "retainMetadata" : "false",
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "true",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-01-08 09:39:50 JST"
+}

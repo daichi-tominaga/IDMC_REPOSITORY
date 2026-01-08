@@ -1,0 +1,980 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_IF_S0004_T0001_0002_insert_testdata_m_business_date_ctrl",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "exp -> target"
+      },
+      {
+        "link" : "source -> exp"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-08-04T06:07:15.670Z",
+        "name" : "source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "BASE_CD"
+            },
+            "name" : "BASE_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ONLINE_YMD"
+            },
+            "name" : "ONLINE_YMD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BATCH_YMD"
+            },
+            "name" : "BATCH_YMD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FORECAST_YM"
+            },
+            "name" : "FORECAST_YM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FORECAST_CALC_BASE_YM"
+            },
+            "name" : "FORECAST_CALC_BASE_YM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@7iOcomJSecxlv2qZ6FkPAW",
+          "connectionName" : "con_flatfile-datahub",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv",
+            "label" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv",
+            "objectName" : "IF_S0004_T0001_0002_12.csv",
+            "path" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "BASE_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BASE_CD",
+                "nativeName" : "BASE_CD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "ONLINE_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "ONLINE_YMD",
+                "nativeName" : "ONLINE_YMD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "BATCH_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BATCH_YMD",
+                "nativeName" : "BATCH_YMD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "FORECAST_YM",
+                "fieldType" : "CONNECTOR",
+                "label" : "FORECAST_YM",
+                "nativeName" : "FORECAST_YM",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "FORECAST_CALC_BASE_YM",
+                "fieldType" : "CONNECTOR",
+                "label" : "FORECAST_CALC_BASE_YM",
+                "nativeName" : "FORECAST_CALC_BASE_YM",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0001_0002/testdata/IF_S0004_T0001_0002_12.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-04T06:07:15.682Z",
+        "name" : "target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "BASE_CD"
+            },
+            "name" : "BASE_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ONLINE_YMD"
+            },
+            "name" : "ONLINE_YMD",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "BATCH_YMD"
+            },
+            "name" : "BATCH_YMD",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "FORECAST_YM"
+            },
+            "name" : "FORECAST_YM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FORECAST_CALC_BASE_YM"
+            },
+            "name" : "FORECAST_CALC_BASE_YM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "OVERSEAS_PRD_PLAN_FORECAST_YM"
+            },
+            "name" : "OVERSEAS_PRD_PLAN_FORECAST_YM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "KD_PART_REQ_QTY_FORECAST_YM"
+            },
+            "name" : "KD_PART_REQ_QTY_FORECAST_YM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@8l9OZ68XNcqe0r8Mbv2ycb",
+          "connectionName" : "con_oracle-tehai",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "bulkOptions" : {
+            "hardDelete" : "false",
+            "maxRowsPerRequest" : 0,
+            "monitorBulk" : "false",
+            "monitorBulkV2" : "false",
+            "pkChunkingEnabled" : "false",
+            "pkChunkingSize" : 0,
+            "serialMode" : "false",
+            "useBulkApi" : "false",
+            "useBulkApiV2" : "false"
+          },
+          "object" : {
+            "name" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL",
+            "dbSchema" : "PROCUREMENT_DH",
+            "label" : "M_BUSINESS_DATE_CTRL",
+            "objectName" : "M_BUSINESS_DATE_CTRL",
+            "path" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "BASE_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BASE_CD",
+                "nativeName" : "BASE_CD",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "ONLINE_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "ONLINE_YMD",
+                "nativeName" : "ONLINE_YMD",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "BATCH_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BATCH_YMD",
+                "nativeName" : "BATCH_YMD",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "FORECAST_YM",
+                "fieldType" : "CONNECTOR",
+                "label" : "FORECAST_YM",
+                "nativeName" : "FORECAST_YM",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "FORECAST_CALC_BASE_YM",
+                "fieldType" : "CONNECTOR",
+                "label" : "FORECAST_CALC_BASE_YM",
+                "nativeName" : "FORECAST_CALC_BASE_YM",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "OVERSEAS_PRD_PLAN_FORECAST_YM",
+                "fieldType" : "CONNECTOR",
+                "label" : "OVERSEAS_PRD_PLAN_FORECAST_YM",
+                "nativeName" : "OVERSEAS_PRD_PLAN_FORECAST_YM",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "KD_PART_REQ_QTY_FORECAST_YM",
+                "fieldType" : "CONNECTOR",
+                "label" : "KD_PART_REQ_QTY_FORECAST_YM",
+                "nativeName" : "KD_PART_REQ_QTY_FORECAST_YM",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "PROCUREMENT_DH/M_BUSINESS_DATE_CTRL"
+                  }
+                ]
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "true",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-22T02:11:59.448Z",
+        "name" : "exp",
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "true",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true",
+                "names" : [
+                  {
+                    "inputName" : "BASE_CD"
+                  },
+                  {
+                    "inputName" : "BATCH_YMD",
+                    "outputName" : "S_BATCH_YMD"
+                  },
+                  {
+                    "inputName" : "CREATIVE_DT",
+                    "outputName" : "S_CREATIVE_DT"
+                  },
+                  {
+                    "inputName" : "CREATIVE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "CREATIVE_USER_ID"
+                  },
+                  {
+                    "inputName" : "DELETE_FLG"
+                  },
+                  {
+                    "inputName" : "FORECAST_CALC_BASE_YM"
+                  },
+                  {
+                    "inputName" : "FORECAST_YM"
+                  },
+                  {
+                    "inputName" : "ONLINE_YMD",
+                    "outputName" : "S_ONLINE_YMD"
+                  },
+                  {
+                    "inputName" : "UPDATE_DT",
+                    "outputName" : "S_UPDATE_DT"
+                  },
+                  {
+                    "inputName" : "UPDATE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "UPDATE_USER_ID"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "windowConfigurationEnabled" : "false",
+        "fields" : [
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "BATCH_YMD",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_BATCH_YMD, 'YYYY/MM/DD')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "ONLINE_YMD",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_ONLINE_YMD, 'YYYY/MM/DD')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_CREATIVE_DT, 'YYYY/MM/DD')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_UPDATE_DT, 'YYYY/MM/DD')"
+          }
+        ],
+        "windowSpec" : {
+          "allRowsFollowing" : "false",
+          "allRowsPreceding" : "false",
+          "endOffset" : 0,
+          "startOffset" : 0,
+          "partitionKeys" : null
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-01-08 09:39:50 JST"
+}
