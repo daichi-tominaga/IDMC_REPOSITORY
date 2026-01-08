@@ -1,0 +1,1012 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_IF_S0004_T0001_0002_output_testdata_m05_dist",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "source -> target"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-08-04T05:38:09.352Z",
+        "name" : "source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "CDIST_CD"
+            },
+            "name" : "CDIST_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CGROUP_CD"
+            },
+            "name" : "CGROUP_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CGROUP2_CD"
+            },
+            "name" : "CGROUP2_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CGROUP3_CD"
+            },
+            "name" : "CGROUP3_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CGROUP4_CD"
+            },
+            "name" : "CGROUP4_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CGROUP5_CD"
+            },
+            "name" : "CGROUP5_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CCOUNTRY_CD"
+            },
+            "name" : "CCOUNTRY_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCAGENCY_NAME"
+            },
+            "name" : "VCAGENCY_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCDIST_NAME"
+            },
+            "name" : "VCDIST_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CNAMEPLATE_LANGUAGE"
+            },
+            "name" : "CNAMEPLATE_LANGUAGE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CMETRIC_UNIT"
+            },
+            "name" : "CMETRIC_UNIT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CPARTS_CATALOGUE_CS"
+            },
+            "name" : "CPARTS_CATALOGUE_CS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CWAREHOUSE_CD"
+            },
+            "name" : "CWAREHOUSE_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CSHIPPING_SRRVICE_CD"
+            },
+            "name" : "CSHIPPING_SRRVICE_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CPACKING_PATTERN"
+            },
+            "name" : "CPACKING_PATTERN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CCURRENCY_CD"
+            },
+            "name" : "CCURRENCY_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CMARKET_PRICES_CD"
+            },
+            "name" : "CMARKET_PRICES_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CAREA_CD"
+            },
+            "name" : "CAREA_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CSETTLEMENT_CD"
+            },
+            "name" : "CSETTLEMENT_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCUSER_NAME"
+            },
+            "name" : "VCUSER_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 50,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCADDRESS"
+            },
+            "name" : "VCADDRESS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 256,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCEMAILS"
+            },
+            "name" : "VCEMAILS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 256,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VCEMAIL_REPLY_TO"
+            },
+            "name" : "VCEMAIL_REPLY_TO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 50,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "TEL"
+            },
+            "name" : "TEL",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CPASSWORD"
+            },
+            "name" : "CPASSWORD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 8,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CSHIPPING_CS"
+            },
+            "name" : "CSHIPPING_CS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DREFIX_DATE"
+            },
+            "name" : "DREFIX_DATE",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "CLATIN_AMERICA_FLG"
+            },
+            "name" : "CLATIN_AMERICA_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CYEN_EXCHANGE_FLG"
+            },
+            "name" : "CYEN_EXCHANGE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "NCURRENCY_RATE"
+            },
+            "name" : "NCURRENCY_RATE",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 6,
+            "scale" : 2
+          },
+          {
+            "adapterField" : {
+              "name" : "NMARGIN"
+            },
+            "name" : "NMARGIN",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 5,
+            "scale" : 2
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@2w9vZW5yz8scdB6wRBF6Ul",
+          "connectionName" : "con_Oracle-LFSYS",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "LFSYS/M05_DIST",
+            "dbSchema" : "LFSYS",
+            "label" : "M05_DIST",
+            "objectName" : "M05_DIST",
+            "path" : "LFSYS/M05_DIST",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "CDIST_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CDIST_CD",
+                "nativeName" : "CDIST_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CGROUP_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CGROUP_CD",
+                "nativeName" : "CGROUP_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CGROUP2_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CGROUP2_CD",
+                "nativeName" : "CGROUP2_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CGROUP3_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CGROUP3_CD",
+                "nativeName" : "CGROUP3_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CGROUP4_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CGROUP4_CD",
+                "nativeName" : "CGROUP4_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CGROUP5_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CGROUP5_CD",
+                "nativeName" : "CGROUP5_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CCOUNTRY_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CCOUNTRY_CD",
+                "nativeName" : "CCOUNTRY_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "VCAGENCY_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCAGENCY_NAME",
+                "nativeName" : "VCAGENCY_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "VCDIST_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCDIST_NAME",
+                "nativeName" : "VCDIST_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CNAMEPLATE_LANGUAGE",
+                "fieldType" : "CONNECTOR",
+                "label" : "CNAMEPLATE_LANGUAGE",
+                "nativeName" : "CNAMEPLATE_LANGUAGE",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CMETRIC_UNIT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CMETRIC_UNIT",
+                "nativeName" : "CMETRIC_UNIT",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CPARTS_CATALOGUE_CS",
+                "fieldType" : "CONNECTOR",
+                "label" : "CPARTS_CATALOGUE_CS",
+                "nativeName" : "CPARTS_CATALOGUE_CS",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CWAREHOUSE_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CWAREHOUSE_CD",
+                "nativeName" : "CWAREHOUSE_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CSHIPPING_SRRVICE_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CSHIPPING_SRRVICE_CD",
+                "nativeName" : "CSHIPPING_SRRVICE_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CPACKING_PATTERN",
+                "fieldType" : "CONNECTOR",
+                "label" : "CPACKING_PATTERN",
+                "nativeName" : "CPACKING_PATTERN",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CCURRENCY_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CCURRENCY_CD",
+                "nativeName" : "CCURRENCY_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CMARKET_PRICES_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CMARKET_PRICES_CD",
+                "nativeName" : "CMARKET_PRICES_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CAREA_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CAREA_CD",
+                "nativeName" : "CAREA_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CSETTLEMENT_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CSETTLEMENT_CD",
+                "nativeName" : "CSETTLEMENT_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "VCUSER_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCUSER_NAME",
+                "nativeName" : "VCUSER_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 50,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "VCADDRESS",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCADDRESS",
+                "nativeName" : "VCADDRESS",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 256,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "VCEMAILS",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCEMAILS",
+                "nativeName" : "VCEMAILS",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 256,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "VCEMAIL_REPLY_TO",
+                "fieldType" : "CONNECTOR",
+                "label" : "VCEMAIL_REPLY_TO",
+                "nativeName" : "VCEMAIL_REPLY_TO",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 50,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "TEL",
+                "fieldType" : "CONNECTOR",
+                "label" : "TEL",
+                "nativeName" : "TEL",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CPASSWORD",
+                "fieldType" : "CONNECTOR",
+                "label" : "CPASSWORD",
+                "nativeName" : "CPASSWORD",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 8,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CSHIPPING_CS",
+                "fieldType" : "CONNECTOR",
+                "label" : "CSHIPPING_CS",
+                "nativeName" : "CSHIPPING_CS",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "DREFIX_DATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "DREFIX_DATE",
+                "nativeName" : "DREFIX_DATE",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CLATIN_AMERICA_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "CLATIN_AMERICA_FLG",
+                "nativeName" : "CLATIN_AMERICA_FLG",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "CYEN_EXCHANGE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "CYEN_EXCHANGE_FLG",
+                "nativeName" : "CYEN_EXCHANGE_FLG",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "NCURRENCY_RATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "NCURRENCY_RATE",
+                "nativeName" : "NCURRENCY_RATE",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 2,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              },
+              {
+                "name" : "NMARGIN",
+                "fieldType" : "CONNECTOR",
+                "label" : "NMARGIN",
+                "nativeName" : "NMARGIN",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 2,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "LFSYS/M05_DIST"
+                  }
+                ]
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-08-04T05:38:09.358Z",
+        "name" : "target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "Append if Exists",
+            "value" : "NO"
+          },
+          {
+            "name" : "Create Target Directory",
+            "value" : "NO"
+          },
+          {
+            "name" : "Header Options",
+            "value" : "Output Field Names"
+          },
+          {
+            "name" : "Output Type",
+            "value" : "File"
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "dataAdapter" : {
+          "connectionId" : "saas:@7iOcomJSecxlv2qZ6FkPAW",
+          "connectionName" : "con_flatfile-datahub",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "bulkOptions" : {
+            "hardDelete" : "false",
+            "maxRowsPerRequest" : 0,
+            "monitorBulk" : "false",
+            "monitorBulkV2" : "false",
+            "pkChunkingEnabled" : "false",
+            "pkChunkingSize" : 0,
+            "serialMode" : "false",
+            "useBulkApi" : "false",
+            "useBulkApiV2" : "false"
+          },
+          "object" : {
+            "name" : "IF_S0004_T0001_0002/M05_DIST_%Y%m%d%H%M%S.csv",
+            "label" : "IF_S0004_T0001_0002/M05_DIST_%Y%m%d%H%M%S.csv",
+            "path" : "IF_S0004_T0001_0002/M05_DIST_%Y%m%d%H%M%S.csv",
+            "retainMetadata" : "false",
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "none"
+            }
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "true",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-01-08 09:39:49 JST"
+}

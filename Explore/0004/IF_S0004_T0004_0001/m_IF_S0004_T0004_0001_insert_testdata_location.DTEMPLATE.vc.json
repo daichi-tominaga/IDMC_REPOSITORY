@@ -1,0 +1,1650 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_IF_S0004_T0004_0001_insert_testdata_location",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "式 -> ターゲット"
+      },
+      {
+        "link" : "ソース -> 式"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-06-20T05:35:15.635Z",
+        "name" : "ソース",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "File Reader Truncate String Null",
+            "value" : "NO"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "SEQ_NO"
+            },
+            "name" : "SEQ_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MOD_TYPE_DIV"
+            },
+            "name" : "MOD_TYPE_DIV",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELIVERY_REC_CREATE_DT"
+            },
+            "name" : "DELIVERY_REC_CREATE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LINE_NO"
+            },
+            "name" : "LINE_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "PART_NO"
+            },
+            "name" : "PART_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MINOR"
+            },
+            "name" : "MINOR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MFG_DIV"
+            },
+            "name" : "MFG_DIV",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MFG_SEQ"
+            },
+            "name" : "MFG_SEQ",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SUPPLIER_CD"
+            },
+            "name" : "SUPPLIER_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "RECEIVING_DOCK"
+            },
+            "name" : "RECEIVING_DOCK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOCATION_DIV"
+            },
+            "name" : "LOCATION_DIV",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FROM_YMD"
+            },
+            "name" : "FROM_YMD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "TO_YMD"
+            },
+            "name" : "TO_YMD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOCATION"
+            },
+            "name" : "LOCATION",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOC_RATIO"
+            },
+            "name" : "LOC_RATIO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "RECIPIENT_CD"
+            },
+            "name" : "RECIPIENT_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SK_ADDRESS"
+            },
+            "name" : "SK_ADDRESS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "REMARKS"
+            },
+            "name" : "REMARKS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@7iOcomJSecxlv2qZ6FkPAW",
+          "connectionName" : "con_flatfile-datahub",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv",
+            "label" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv",
+            "objectName" : "IF_S0004_T0004_0001_05.csv",
+            "path" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "SEQ_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "SEQ_NO",
+                "nativeName" : "SEQ_NO",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "MOD_TYPE_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "MOD_TYPE_DIV",
+                "nativeName" : "MOD_TYPE_DIV",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DELIVERY_REC_CREATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELIVERY_REC_CREATE_DT",
+                "nativeName" : "DELIVERY_REC_CREATE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "LINE_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "LINE_NO",
+                "nativeName" : "LINE_NO",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "PART_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "PART_NO",
+                "nativeName" : "PART_NO",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "MINOR",
+                "fieldType" : "CONNECTOR",
+                "label" : "MINOR",
+                "nativeName" : "MINOR",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "MFG_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "MFG_DIV",
+                "nativeName" : "MFG_DIV",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "MFG_SEQ",
+                "fieldType" : "CONNECTOR",
+                "label" : "MFG_SEQ",
+                "nativeName" : "MFG_SEQ",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "SUPPLIER_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "SUPPLIER_CD",
+                "nativeName" : "SUPPLIER_CD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "RECEIVING_DOCK",
+                "fieldType" : "CONNECTOR",
+                "label" : "RECEIVING_DOCK",
+                "nativeName" : "RECEIVING_DOCK",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "LOCATION_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOCATION_DIV",
+                "nativeName" : "LOCATION_DIV",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "FROM_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "FROM_YMD",
+                "nativeName" : "FROM_YMD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "TO_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "TO_YMD",
+                "nativeName" : "TO_YMD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "LOCATION",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOCATION",
+                "nativeName" : "LOCATION",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "LOC_RATIO",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOC_RATIO",
+                "nativeName" : "LOC_RATIO",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "RECIPIENT_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "RECIPIENT_CD",
+                "nativeName" : "RECIPIENT_CD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "SK_ADDRESS",
+                "fieldType" : "CONNECTOR",
+                "label" : "SK_ADDRESS",
+                "nativeName" : "SK_ADDRESS",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "REMARKS",
+                "fieldType" : "CONNECTOR",
+                "label" : "REMARKS",
+                "nativeName" : "REMARKS",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IF_S0004_T0004_0001/testdata/IF_S0004_T0004_0001_05.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-06-20T05:35:15.635Z",
+        "name" : "ターゲット",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "SEQ_NO"
+            },
+            "name" : "SEQ_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 18,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MOD_TYPE_DIV"
+            },
+            "name" : "MOD_TYPE_DIV",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELIVERY_REC_CREATE_DT"
+            },
+            "name" : "DELIVERY_REC_CREATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "LINE_NO"
+            },
+            "name" : "LINE_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 2,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "PART_NO"
+            },
+            "name" : "PART_NO",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 12,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MINOR"
+            },
+            "name" : "MINOR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 2,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MFG_DIV"
+            },
+            "name" : "MFG_DIV",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MFG_SEQ"
+            },
+            "name" : "MFG_SEQ",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SUPPLIER_CD"
+            },
+            "name" : "SUPPLIER_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "RECEIVING_DOCK"
+            },
+            "name" : "RECEIVING_DOCK",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 2,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOCATION_DIV"
+            },
+            "name" : "LOCATION_DIV",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 3,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FROM_YMD"
+            },
+            "name" : "FROM_YMD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 8,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "TO_YMD"
+            },
+            "name" : "TO_YMD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 8,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOCATION"
+            },
+            "name" : "LOCATION",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 8,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOC_RATIO"
+            },
+            "name" : "LOC_RATIO",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 3,
+            "scale" : 2
+          },
+          {
+            "adapterField" : {
+              "name" : "RECIPIENT_CD"
+            },
+            "name" : "RECIPIENT_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 6,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SK_ADDRESS"
+            },
+            "name" : "SK_ADDRESS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 5,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "REMARKS"
+            },
+            "name" : "REMARKS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 240,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DELETE_FLG"
+            },
+            "name" : "DELETE_FLG",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_USER_ID"
+            },
+            "name" : "CREATIVE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_DT"
+            },
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "CREATIVE_PGM_ID"
+            },
+            "name" : "CREATIVE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_USER_ID"
+            },
+            "name" : "UPDATE_USER_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_DT"
+            },
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDATE_PGM_ID"
+            },
+            "name" : "UPDATE_PGM_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 10,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@1htugg26xO3lHUT481DdSe",
+          "connectionName" : "con_Oracle-DATAHUB-DATAHUB",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "DATAHUB_1/LF_W_PCM_SND_LOCATION",
+            "dbSchema" : "DATAHUB_1",
+            "label" : "LF_W_PCM_SND_LOCATION",
+            "objectName" : "LF_W_PCM_SND_LOCATION",
+            "path" : "DATAHUB_1/LF_W_PCM_SND_LOCATION",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "SEQ_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "SEQ_NO",
+                "nativeName" : "SEQ_NO",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 18,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "MOD_TYPE_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "MOD_TYPE_DIV",
+                "nativeName" : "MOD_TYPE_DIV",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "DELIVERY_REC_CREATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELIVERY_REC_CREATE_DT",
+                "nativeName" : "DELIVERY_REC_CREATE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "LINE_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "LINE_NO",
+                "nativeName" : "LINE_NO",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 2,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "PART_NO",
+                "fieldType" : "CONNECTOR",
+                "label" : "PART_NO",
+                "nativeName" : "PART_NO",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 12,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "MINOR",
+                "fieldType" : "CONNECTOR",
+                "label" : "MINOR",
+                "nativeName" : "MINOR",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 2,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "MFG_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "MFG_DIV",
+                "nativeName" : "MFG_DIV",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "MFG_SEQ",
+                "fieldType" : "CONNECTOR",
+                "label" : "MFG_SEQ",
+                "nativeName" : "MFG_SEQ",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "SUPPLIER_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "SUPPLIER_CD",
+                "nativeName" : "SUPPLIER_CD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "RECEIVING_DOCK",
+                "fieldType" : "CONNECTOR",
+                "label" : "RECEIVING_DOCK",
+                "nativeName" : "RECEIVING_DOCK",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 2,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "LOCATION_DIV",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOCATION_DIV",
+                "nativeName" : "LOCATION_DIV",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 3,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "FROM_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "FROM_YMD",
+                "nativeName" : "FROM_YMD",
+                "nativeType" : "char",
+                "original" : "false",
+                "precision" : 8,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "TO_YMD",
+                "fieldType" : "CONNECTOR",
+                "label" : "TO_YMD",
+                "nativeName" : "TO_YMD",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 8,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "LOCATION",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOCATION",
+                "nativeName" : "LOCATION",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 8,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "LOC_RATIO",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOC_RATIO",
+                "nativeName" : "LOC_RATIO",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 3,
+                "scale" : 2,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "RECIPIENT_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "RECIPIENT_CD",
+                "nativeName" : "RECIPIENT_CD",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 6,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "SK_ADDRESS",
+                "fieldType" : "CONNECTOR",
+                "label" : "SK_ADDRESS",
+                "nativeName" : "SK_ADDRESS",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 5,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "REMARKS",
+                "fieldType" : "CONNECTOR",
+                "label" : "REMARKS",
+                "nativeName" : "REMARKS",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 240,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "DELETE_FLG",
+                "fieldType" : "CONNECTOR",
+                "label" : "DELETE_FLG",
+                "nativeName" : "DELETE_FLG",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_USER_ID",
+                "nativeName" : "CREATIVE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_DT",
+                "nativeName" : "CREATIVE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "CREATIVE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CREATIVE_PGM_ID",
+                "nativeName" : "CREATIVE_PGM_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_USER_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_USER_ID",
+                "nativeName" : "UPDATE_USER_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_DT",
+                "nativeName" : "UPDATE_DT",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDATE_PGM_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDATE_PGM_ID",
+                "nativeName" : "UPDATE_PGM_ID",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "DATAHUB_1/LF_W_PCM_SND_LOCATION"
+                  }
+                ]
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "true",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-06-20T05:41:15.201Z",
+        "name" : "式",
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "true",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true",
+                "names" : [
+                  {
+                    "inputName" : "CREATIVE_DT",
+                    "outputName" : "S_CREATIVE_DT"
+                  },
+                  {
+                    "inputName" : "CREATIVE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "CREATIVE_USER_ID"
+                  },
+                  {
+                    "inputName" : "DELETE_FLG"
+                  },
+                  {
+                    "inputName" : "DELIVERY_REC_CREATE_DT",
+                    "outputName" : "S_DELIVERY_REC_CREATE_DT"
+                  },
+                  {
+                    "inputName" : "FROM_YMD"
+                  },
+                  {
+                    "inputName" : "LINE_NO"
+                  },
+                  {
+                    "inputName" : "LOC_RATIO"
+                  },
+                  {
+                    "inputName" : "LOCATION"
+                  },
+                  {
+                    "inputName" : "LOCATION_DIV"
+                  },
+                  {
+                    "inputName" : "MFG_DIV"
+                  },
+                  {
+                    "inputName" : "MFG_SEQ"
+                  },
+                  {
+                    "inputName" : "MINOR"
+                  },
+                  {
+                    "inputName" : "MOD_TYPE_DIV"
+                  },
+                  {
+                    "inputName" : "PART_NO"
+                  },
+                  {
+                    "inputName" : "RECEIVING_DOCK"
+                  },
+                  {
+                    "inputName" : "RECIPIENT_CD"
+                  },
+                  {
+                    "inputName" : "REMARKS"
+                  },
+                  {
+                    "inputName" : "SEQ_NO"
+                  },
+                  {
+                    "inputName" : "SK_ADDRESS"
+                  },
+                  {
+                    "inputName" : "SUPPLIER_CD"
+                  },
+                  {
+                    "inputName" : "TO_YMD"
+                  },
+                  {
+                    "inputName" : "UPDATE_DT",
+                    "outputName" : "S_UPDATE_DT"
+                  },
+                  {
+                    "inputName" : "UPDATE_PGM_ID"
+                  },
+                  {
+                    "inputName" : "UPDATE_USER_ID"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "windowConfigurationEnabled" : "false",
+        "fields" : [
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "CREATIVE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_CREATIVE_DT, 'YYYY-MM-DD HH24:MI')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "UPDATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_UPDATE_DT, 'YYYY-MM-DD HH24:MI')"
+          },
+          {
+            "defaultValue" : "ERROR('トランスフォーメーションエラー')",
+            "name" : "DELIVERY_REC_CREATE_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9,
+            "expFieldType" : "OUTPUT",
+            "expression" : "To_Date(S_DELIVERY_REC_CREATE_DT, 'YYYY-MM-DD HH24:MI')"
+          }
+        ],
+        "windowSpec" : {
+          "allRowsFollowing" : "false",
+          "allRowsPreceding" : "false",
+          "endOffset" : 0,
+          "startOffset" : 0,
+          "partitionKeys" : null
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-01-08 09:39:11 JST"
+}
